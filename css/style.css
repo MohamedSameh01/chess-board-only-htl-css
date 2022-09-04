@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    /* background-image: url(../images/damiano-lingauri-bUM4weg0RSI-unsplash.jpg);
+    background-size: cover;
+    z-index: -1; */
+}
+
+:root {
+    --mai-color: rgb(129, 84, 17);
+    --second-color: rgb(255, 153, 0);
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(233, 173, 8, 0.842);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: -77px;
+    font-size: 50px;
+}
+
+.container {
+    position: absolute;
+    /* top: -50%; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 512px;
+    height: 512px;
+    margin-top: 400px;
+    /* z-index: 100; */
+    cursor: pointer;
+}
+
+.container .row {
+    display: flex;
+}
+
+.container .row .home {
+    width: 64px;
+    height: 64px;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.container .row1 .home:nth-child(even) {
+    background-color: var(--mai-color);
+    display: flex;
+}
+
+.container .row1 .home:nth-child(odd) {
+    background-color: var(--second-color);
+    display: flex;
+}
+
+.container .row1 .home i {
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: black;
+}
+
+.container .row2 .home:nth-child(odd) {
+    background-color: var(--mai-color);
+    display: flex;
+}
+
+.container .row2 .home:nth-child(even) {
+    background-color: var(--second-color);
+    display: flex;
+}
+
+.container .row2 .home i {
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: black;
+}
+
+.container .row3 .home:nth-child(even) {
+    background-color: var(--mai-color);
+}
+
+.container .row3 .home:nth-child(odd) {
+    background-color: var(--second-color);
+}
+
+.container .row4 .home:nth-child(odd) {
+    background-color: var(--mai-color);
+}
+
+.container .row4 .home:nth-child(even) {
+    background-color: var(--second-color);
+}
+
+.container .row5 .home:nth-child(even) {
+    background-color: var(--mai-color);
+}
+
+.container .row5 .home:nth-child(odd) {
+    background-color: var(--second-color);
+}
+
+.container .row6 .home:nth-child(odd) {
+    background-color: var(--mai-color);
+}
+
+.container .row6 .home:nth-child(even) {
+    background-color: var(--second-color);
+}
+
+.container .row7 .home:nth-child(even) {
+    background-color: var(--mai-color);
+    display: flex;
+}
+
+.container .row7 .home:nth-child(odd) {
+    background-color: var(--second-color);
+    display: flex;
+}
+
+.container .row7 .home i {
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.container .row8 .home:nth-child(odd) {
+    background-color: var(--mai-color);
+    display: flex;
+}
+
+.container .row8 .home:nth-child(even) {
+    background-color: var(--second-color);
+    display: flex;
+}
+
+.container .row8 .home i {
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: white;
+}
